@@ -1,0 +1,8 @@
+{
+    	"TestName": "Alerts",
+    	"Assertion3": "You clicked a button",
+    	"Assertion5": "Do you confirm action?",
+    	"Assertion6.1": "You selected Ok",
+    	"Assertion7": "Please enter your name",
+	"Assertion8.1": "You entered "
+}

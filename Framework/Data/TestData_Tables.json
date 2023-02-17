@@ -1,0 +1,15 @@
+{
+    	"TestName": "Tables",
+    	"UserNo1_FirstName": "Jon",
+    	"UserNo1_LastName": "Snow",
+    	"UserNo1_Email": "knownothing@gmail.com",
+    	"UserNo1_Age": "30",
+	"UserNo1_Salary": "4000",
+	"UserNo1_Department": "alpha",
+    	"UserNo2_FirstName": "Buttercup",
+    	"UserNo2_LastName": "Cumbersnatch",
+    	"UserNo2_Email": "BudapestCandygram@mail.io",
+    	"UserNo2_Age": "41",
+	"UserNo2_Salary": "2000",
+	"UserNo2_Department": "beta"
+}
