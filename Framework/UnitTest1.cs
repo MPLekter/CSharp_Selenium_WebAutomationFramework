@@ -238,6 +238,8 @@ namespace Task3._1
             Assert.That(previousRowsWithData.Count != currentRowsWithData.Count, $"The data in table did not change. There are {currentRowsWithData.Count} rows of data");
             //A7 Data of User No has been deleted from table
             Assert.That(previousRowsWithData.Count != currentRowsWithData.Count, $"The data in table did not change. There are {currentRowsWithData.Count} rows of data"); //TODO: ask about writing this assertion in a better way
+
+            driver.Quit();
         }
 
         [Test]
@@ -313,7 +315,7 @@ namespace Task3._1
         [TearDown]
         public void TearDown()
         {
-            driver.Quit(); //TODO: If comment out, works fine. If not, ask how to fix the object disposed exception. 
+            //driver.Quit(); //TODO: If comment out, works fine. If not, ask how to fix the object disposed exception. 
         }
     }
 }
