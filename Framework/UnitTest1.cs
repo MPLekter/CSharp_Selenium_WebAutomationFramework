@@ -315,7 +315,13 @@ namespace Task3._1
         [TearDown]
         public void TearDown()
         {
-            //driver.Quit(); //TODO: If comment out, works fine. If not, ask how to fix the object disposed exception. 
+            //driver.Quit(); //DON'T do it. Will give the object disposed exception. 
+        }
+
+        [OneTimeTearDown]
+        public void CleanUp()
+        {
+            driver.Quit();
         }
     }
 }
